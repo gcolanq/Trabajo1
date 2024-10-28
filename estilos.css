@@ -1,0 +1,74 @@
+/*<style>*/
+
+h1 {
+    font-size: 2em; /* Cambia 2em al tamaño que prefieras */
+}
+
+/*Cuerpo : Body*/
+/Letra del contenido : font-family, arial usa en caso que no este arial usa el sans-serif,*/
+/*Color del cuerpo: Background-color*/
+/*Espacio del Body con el exterior:Margin*/
+/*Estilo del espacio entre el contenido y borde del body relleno pues; */
+body {
+
+font-family:Arial,sans-serif;
+background-color: #f0f0f0;
+margin:10;
+padding: 90px;
+}
+
+/*Header es el titulo o contenido principal de la pagina*/
+/*background color ; es la propiedad del fondo del elemento #4CAF50 es su color */
+/* color es la propiedad que establece el color del texto ,white blanco pe*/
+/*padding es la propiedad que agrega el espacio interior alrededor del contenido aca tiene su truco*/
+/*padding: 10px 20px 10px 20px; esto significa que  10 px:relleno superior(top) 20px :Relleno derecho (right) 10px:Relleno inferior(bottom), 20px:Relleno izquiero(left)  */
+/* padding: 10px 20px significa 10 px: Relleno superior e inferior ,20 px:Relleno izquierdo y derecho  */
+/*  */
+
+header {
+background-color: #4CAF50;
+text-align:center;
+color :white;
+padding: 10px 0;
+
+}
+
+/* <article> Es un contendo Independiente  que puede usarse como blog , ect*/
+/*Border Radius: Redondea los bordes del elemento o esquinas*/
+/* border-radius: 5px 10px 15px 20px;  Esquina superior izquierda. superior derecha e inferior izquierda. Esquina inferior derecha Esquina inferior izquierda.*/
+/*box-shadow se utiliza para agregar sombras a los elementos al igual que los demas tiene 4 elementos y su color respectivo  usa inset box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); para dar un color hacia adentro*/
+
+
+article {
+background-color: white;
+padding:20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+/*margin-top: sta propiedad define el espacio exterior (margen) en la parte superior del elemento.*/
+/*font-size: Esta propiedad establece el tamaño de la fuente del texto dentro del elemento.*/
+/*en ambos tienen varias medidas , consultar*/
+
+
+footer {
+
+text-align:center;
+margin-top:20 px;
+font-size: 0.8em;
+color: #555;
+
+}
+  
+#graficoBarras {
+    display: flex;
+    align-items: flex-end;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9; /* Agrega un color de fondo para verlo */
+}
+
+/*</style>*/
+
